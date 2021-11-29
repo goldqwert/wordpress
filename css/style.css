@@ -113,3 +113,57 @@ h2.title {
   margin: 0 auto;
   margin-top: 13px;
 }
+
+.waiting {
+  height: 604px;
+  background-color: #efefef;
+  padding: 85px 0 75px 0;
+}
+
+.waiting .waiting_header {
+  font-family: Roboto;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.waiting .waiting_divider {
+  width: 217px;
+  height: 4px;
+  background: #f9bf3b;
+  margin: 20px auto;
+}
+
+.waiting .waiting_subheader {
+  font-family: Roboto;
+  font-size: 23px;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.waiting .waiting_wrapper {
+  margin-top: 45px;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 48px;
+  width: 342px;
+  text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+  width: 100%;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+  margin-top: 26px;
+  font-weight: 300;
+  font-size: 15px;
+  color: #4a4a4a;
+}
+
+.waiting .waiting_item:last-child {
+  margin: 0;
+}
