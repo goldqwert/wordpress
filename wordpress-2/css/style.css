@@ -1,0 +1,352 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.promo {
+  background: url("../img/main_bg.png") center center/cover no-repeat;
+  height: 800px;
+  padding: 38px 0 60px 0;
+}
+
+.logo .logo_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.logo .logo_text {
+  margin: 9.5px 0 53px 0;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.promo .title {
+  color: #f9bf3b;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 41px;
+  font-weight: 900;
+  line-height: 41px;
+  text-transform: uppercase;
+}
+
+.simple .title_big {
+  margin: 20.5 0;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 80px;
+  text-transform: uppercase;
+}
+
+.promo .promo_text {
+  margin-top: 22.5px;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.promo .promo_text span {
+  color: #f9bf3b;
+  font-family: Roboto;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.promo .promo_btn,
+.present .present_btn {
+  margin: 72px auto 72px auto;
+  display: block;
+  width: 313px;
+  height: 72px;
+  background: linear-gradient(0deg, #2798b9 0%, #3ab6da 100%);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+  color: #fff;
+  text-align: center;
+  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+  font-family: RobotoCondensed;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+}
+
+.promo .more {
+  margin: 0 auto;
+}
+
+.promo .more .more_text {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.promo .more .more_img {
+  display: block;
+  margin: 5px auto 0 auto;
+  width: 29.992px;
+  height: 18.992px;
+}
+
+.waiting {
+  min-height: 604px;
+  background: #efefef;
+  padding: 86px 0 74px 0;
+}
+
+.waiting .waiting_title,
+.finish .finish_title {
+  text-align: center;
+  color: #252525;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.waiting .waiting_divider,
+.finish .finish_divider {
+  margin: 20px auto;
+  width: 217px;
+  height: 3.999px;
+  background: #f9bf3b;
+}
+
+.waiting .waiting_subtitle {
+  color: #4a4a4a;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.waiting .waiting_wrapper {
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+  max-width: 342px;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_item-img {
+  width: 100%;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_item-text {
+  margin-top: 26px;
+  color: #4a4a4a;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.optimization {
+  min-height: 550px;
+  padding: 102px 0 107px 0;
+}
+
+.optimization .optimization_title {
+  margin-left: 391px;
+  color: #299cbd;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.optimization .optimization_text {
+  margin-top: 24px;
+  margin-left: 391px;
+  color: #4a4a4a;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+.optimization .optimization_text span {
+  font-family: "Roboto - Bold";
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+.optimization .optimization_img {
+  position: absolute;
+  top: -54px;
+  left: -240px;
+  z-index: -1;
+}
+
+.finish {
+  background: url("../img/finish_bg.jpg") center center/cover no-repeat;
+  min-height: 447px;
+  padding: 86px 0 68.5px 0;
+}
+
+.finish .finish_title {
+  color: #efefef;
+}
+
+.finish .finish_divider {
+  margin-top: 18px;
+}
+
+.finish .finish_wrapper {
+  margin-top: 39px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 204px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round {
+  width: 115px;
+  height: 115px;
+  background: #b4e2ff;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+  margin-top: 25px;
+  text-align: center;
+  color: #efefef;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.present {
+  min-height: 631px;
+  padding: 88px 0;
+  background: #efefef;
+}
+
+.present .present_img {
+  width: 154px;
+  height: 174px;
+  display: block;
+  margin: 0 auto;
+}
+
+.present .present_text {
+  margin-top: 45px;
+  color: #252525;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 43px;
+}
+
+.first {
+  min-height: 510px;
+  padding: 87px 0 50.5px 0;
+}
+
+.first .first_img {
+  display: block;
+  margin: 0 auto;
+  width: 342px;
+  height: 201px;
+}
+
+.first .first_title {
+  margin-top: 36px;
+  color: #252525;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.first .first_time {
+  margin-top: 30px;
+  color: #299cbd;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.first .first_signUp {
+  margin-top: 24.5px;
+  color: #4a4a4a;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+footer {
+  min-height: 166px;
+  background-color: #1a1a1a;
+  padding: 61px 0 69px 0;
+}
+
+.info {
+  margin: 0 auto;
+  width: 377px;
+  text-align: center;
+  color: #888888;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+footer a {
+  color: #888888;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+  text-decoration: none;
+}
